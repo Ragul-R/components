@@ -30,7 +30,7 @@ const styles = css`
   cursor: pointer;
 
   &.g-btn-primary {
-    background-color: #1d90f5;
+    background-color: #69f;
     color: #fff;
   }
 
@@ -45,7 +45,7 @@ const styles = css`
   }
 
   &.g-btn-tertiary {
-    color: #3c60da;
+    color: #69f;
     background-color: #e7ecff;
   }
 `;
