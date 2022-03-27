@@ -25,6 +25,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "storybook-docs": "start-storybook --docs --no-manager-cache",
-    "chromatic": "npx chromatic --project-token=a9e712552dbd"
+    "chromatic": "chromatic --exit-zero-on-changes"
   }
 }
