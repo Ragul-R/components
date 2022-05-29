@@ -48,6 +48,14 @@ const styles = css`
     color: #3c60da;
     background-color: #69f;
   }
+
+  svg {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    fill: #FFF;
+    margin-left: 8px;
+  }
 `;
 
 export const Button = (props) => {
@@ -62,8 +70,9 @@ export const Button = (props) => {
         'g-btn-ghost': type === 'ghost',
       })}
       disabled={isDisabled}
-    >
+    > 
       {children}
+      <svg><use href="#ad-arrow-down" /></svg>
     </button>
   );
 }

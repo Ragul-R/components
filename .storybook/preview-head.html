@@ -1,0 +1,6 @@
+<script>
+  const baseUrl = window.origin;
+  fetch(`${baseUrl}/spritemap.svg`)
+    .then(resp => { if (resp.ok) return resp.text(); } )
+    .then(resp => { document.head.insertAdjacentHTML('beforeend', resp) })
+</script>
